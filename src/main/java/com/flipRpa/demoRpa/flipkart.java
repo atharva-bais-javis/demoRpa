@@ -49,7 +49,7 @@ public class flipkart {
 
   public static void main(String[] args) {
     setUp();
-    driver.get("https://vendorhub.flipkart.com/");
+    driver.get("https://vendorhub.flipkart.com/#vendor-portal/home");
     driver.manage().window().setSize(new Dimension(1853, 1053));
     driver.findElement(By.cssSelector(".summary-card:nth-child(3) > .summary-sub-text")).click();
     driver.findElement(By.cssSelector(".sc-EHOje:nth-child(3) .jaSJGV")).click();
